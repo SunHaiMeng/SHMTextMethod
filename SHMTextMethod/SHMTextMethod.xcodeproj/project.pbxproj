@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187BF12321AE86AF00398B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF12221AE86AF00398B45 /* AppDelegate.m */; };
+		187BF12621AE86AF00398B45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF12521AE86AF00398B45 /* ViewController.m */; };
+		187BF12921AE86AF00398B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BF12721AE86AF00398B45 /* Main.storyboard */; };
+		187BF12B21AE86B500398B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187BF12A21AE86B500398B45 /* Assets.xcassets */; };
+		187BF12E21AE86B500398B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BF12C21AE86B500398B45 /* LaunchScreen.storyboard */; };
+		187BF13121AE86B500398B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF13021AE86B500398B45 /* main.m */; };
+		187BF13B21AE86B500398B45 /* SHMTextMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF13A21AE86B500398B45 /* SHMTextMethodTests.m */; };
+		187BF14621AE86B500398B45 /* SHMTextMethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF14521AE86B500398B45 /* SHMTextMethodUITests.m */; };
+		187BF15721AE900D00398B45 /* SHMEmojiMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF15621AE900D00398B45 /* SHMEmojiMethod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187BF13721AE86B500398B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BF11621AE86AF00398B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187BF11D21AE86AF00398B45;
+			remoteInfo = SHMTextMethod;
+		};
+		187BF14221AE86B500398B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187BF11621AE86AF00398B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187BF11D21AE86AF00398B45;
+			remoteInfo = SHMTextMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187BF11E21AE86AF00398B45 /* SHMTextMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHMTextMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BF12121AE86AF00398B45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187BF12221AE86AF00398B45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187BF12421AE86AF00398B45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187BF12521AE86AF00398B45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187BF12821AE86AF00398B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187BF12A21AE86B500398B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187BF12D21AE86B500398B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187BF12F21AE86B500398B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187BF13021AE86B500398B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187BF13621AE86B500398B45 /* SHMTextMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHMTextMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BF13A21AE86B500398B45 /* SHMTextMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMTextMethodTests.m; sourceTree = "<group>"; };
+		187BF13C21AE86B500398B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187BF14121AE86B500398B45 /* SHMTextMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHMTextMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BF14521AE86B500398B45 /* SHMTextMethodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMTextMethodUITests.m; sourceTree = "<group>"; };
+		187BF14721AE86B500398B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187BF15521AE900D00398B45 /* SHMEmojiMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMEmojiMethod.h; sourceTree = "<group>"; };
+		187BF15621AE900D00398B45 /* SHMEmojiMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMEmojiMethod.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187BF11B21AE86AF00398B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13321AE86B500398B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13E21AE86B500398B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187BF11521AE86AF00398B45 = {
+			isa = PBXGroup;
+			children = (
+				187BF12021AE86AF00398B45 /* SHMTextMethod */,
+				187BF13921AE86B500398B45 /* SHMTextMethodTests */,
+				187BF14421AE86B500398B45 /* SHMTextMethodUITests */,
+				187BF11F21AE86AF00398B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187BF11F21AE86AF00398B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187BF11E21AE86AF00398B45 /* SHMTextMethod.app */,
+				187BF13621AE86B500398B45 /* SHMTextMethodTests.xctest */,
+				187BF14121AE86B500398B45 /* SHMTextMethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187BF12021AE86AF00398B45 /* SHMTextMethod */ = {
+			isa = PBXGroup;
+			children = (
+				187BF12121AE86AF00398B45 /* AppDelegate.h */,
+				187BF12221AE86AF00398B45 /* AppDelegate.m */,
+				187BF12421AE86AF00398B45 /* ViewController.h */,
+				187BF12521AE86AF00398B45 /* ViewController.m */,
+				187BF15521AE900D00398B45 /* SHMEmojiMethod.h */,
+				187BF15621AE900D00398B45 /* SHMEmojiMethod.m */,
+				187BF12721AE86AF00398B45 /* Main.storyboard */,
+				187BF12A21AE86B500398B45 /* Assets.xcassets */,
+				187BF12C21AE86B500398B45 /* LaunchScreen.storyboard */,
+				187BF12F21AE86B500398B45 /* Info.plist */,
+				187BF13021AE86B500398B45 /* main.m */,
+			);
+			path = SHMTextMethod;
+			sourceTree = "<group>";
+		};
+		187BF13921AE86B500398B45 /* SHMTextMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				187BF13A21AE86B500398B45 /* SHMTextMethodTests.m */,
+				187BF13C21AE86B500398B45 /* Info.plist */,
+			);
+			path = SHMTextMethodTests;
+			sourceTree = "<group>";
+		};
+		187BF14421AE86B500398B45 /* SHMTextMethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187BF14521AE86B500398B45 /* SHMTextMethodUITests.m */,
+				187BF14721AE86B500398B45 /* Info.plist */,
+			);
+			path = SHMTextMethodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187BF11D21AE86AF00398B45 /* SHMTextMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BF14A21AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethod" */;
+			buildPhases = (
+				187BF11A21AE86AF00398B45 /* Sources */,
+				187BF11B21AE86AF00398B45 /* Frameworks */,
+				187BF11C21AE86AF00398B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHMTextMethod;
+			productName = SHMTextMethod;
+			productReference = 187BF11E21AE86AF00398B45 /* SHMTextMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187BF13521AE86B500398B45 /* SHMTextMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BF14D21AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethodTests" */;
+			buildPhases = (
+				187BF13221AE86B500398B45 /* Sources */,
+				187BF13321AE86B500398B45 /* Frameworks */,
+				187BF13421AE86B500398B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187BF13821AE86B500398B45 /* PBXTargetDependency */,
+			);
+			name = SHMTextMethodTests;
+			productName = SHMTextMethodTests;
+			productReference = 187BF13621AE86B500398B45 /* SHMTextMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187BF14021AE86B500398B45 /* SHMTextMethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187BF15021AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethodUITests" */;
+			buildPhases = (
+				187BF13D21AE86B500398B45 /* Sources */,
+				187BF13E21AE86B500398B45 /* Frameworks */,
+				187BF13F21AE86B500398B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187BF14321AE86B500398B45 /* PBXTargetDependency */,
+			);
+			name = SHMTextMethodUITests;
+			productName = SHMTextMethodUITests;
+			productReference = 187BF14121AE86B500398B45 /* SHMTextMethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187BF11621AE86AF00398B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GXT;
+				TargetAttributes = {
+					187BF11D21AE86AF00398B45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					187BF13521AE86B500398B45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 187BF11D21AE86AF00398B45;
+					};
+					187BF14021AE86B500398B45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 187BF11D21AE86AF00398B45;
+					};
+				};
+			};
+			buildConfigurationList = 187BF11921AE86AF00398B45 /* Build configuration list for PBXProject "SHMTextMethod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187BF11521AE86AF00398B45;
+			productRefGroup = 187BF11F21AE86AF00398B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187BF11D21AE86AF00398B45 /* SHMTextMethod */,
+				187BF13521AE86B500398B45 /* SHMTextMethodTests */,
+				187BF14021AE86B500398B45 /* SHMTextMethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187BF11C21AE86AF00398B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BF12E21AE86B500398B45 /* LaunchScreen.storyboard in Resources */,
+				187BF12B21AE86B500398B45 /* Assets.xcassets in Resources */,
+				187BF12921AE86AF00398B45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13421AE86B500398B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13F21AE86B500398B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187BF11A21AE86AF00398B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BF15721AE900D00398B45 /* SHMEmojiMethod.m in Sources */,
+				187BF12621AE86AF00398B45 /* ViewController.m in Sources */,
+				187BF13121AE86B500398B45 /* main.m in Sources */,
+				187BF12321AE86AF00398B45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13221AE86B500398B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BF13B21AE86B500398B45 /* SHMTextMethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187BF13D21AE86B500398B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187BF14621AE86B500398B45 /* SHMTextMethodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187BF13821AE86B500398B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187BF11D21AE86AF00398B45 /* SHMTextMethod */;
+			targetProxy = 187BF13721AE86B500398B45 /* PBXContainerItemProxy */;
+		};
+		187BF14321AE86B500398B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187BF11D21AE86AF00398B45 /* SHMTextMethod */;
+			targetProxy = 187BF14221AE86B500398B45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187BF12721AE86AF00398B45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BF12821AE86AF00398B45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187BF12C21AE86B500398B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BF12D21AE86B500398B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187BF14821AE86B500398B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187BF14921AE86B500398B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187BF14B21AE86B500398B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		187BF14C21AE86B500398B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		187BF14E21AE86B500398B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHMTextMethod.app/SHMTextMethod";
+			};
+			name = Debug;
+		};
+		187BF14F21AE86B500398B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHMTextMethod.app/SHMTextMethod";
+			};
+			name = Release;
+		};
+		187BF15121AE86B500398B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHMTextMethod;
+			};
+			name = Debug;
+		};
+		187BF15221AE86B500398B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPD48WUPUH;
+				INFOPLIST_FILE = SHMTextMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shm.SHMTextMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHMTextMethod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187BF11921AE86AF00398B45 /* Build configuration list for PBXProject "SHMTextMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BF14821AE86B500398B45 /* Debug */,
+				187BF14921AE86B500398B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BF14A21AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BF14B21AE86B500398B45 /* Debug */,
+				187BF14C21AE86B500398B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BF14D21AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BF14E21AE86B500398B45 /* Debug */,
+				187BF14F21AE86B500398B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187BF15021AE86B500398B45 /* Build configuration list for PBXNativeTarget "SHMTextMethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187BF15121AE86B500398B45 /* Debug */,
+				187BF15221AE86B500398B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187BF11621AE86AF00398B45 /* Project object */;
+}
